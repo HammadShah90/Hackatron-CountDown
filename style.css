@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: math;
+}
+
+.mainBody {
+    background: linear-gradient(-45deg, #5bf84d, #64fcfc, #5bf84d);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.middleBox {
+    margin-top: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #64fcfc, #56f786, #64fcfc);
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 15px #0765b5, -2px -2px 15px #0765b5;
+}
+
+.contentHeading h1 {
+    font-size: 3em;
+    margin-bottom: 0.7em;
+    color: #286ef0;
+    text-shadow: 0px 6px 10px #1e74f5;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(0, 255, 21);
+    word-spacing: 0.1em;
+    letter-spacing: 0.08em;
+}
+
+.batch9 {
+    font-size: 0.7em;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 255, 21);
+}
+
+.contentHeading h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #004d40;
+    margin-bottom: 2em;
+    word-spacing: 0.2em;
+    letter-spacing: 0.05em;
+}
+
+
+.contentCoutdown .countDownTimer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    gap: 15px;
+}
+
+.contentCoutdown .countDownTimer h2 {
+    font-size: 2.5em;
+    display: grid;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 5px;
+    border: 1px dashed;
+    border-radius: 100px;
+    padding: 30px;
+}
+
+.contentCoutdown:last-child h4 {
+    color: #435efc;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #a9ccfa;
+    margin-bottom: 50px;
+}
+
+.countDownTimer h2 {
+    color: #079626;
+}
+
+.countDownTimer h2:nth-child(3) {
+    color: #af6c07;
+}
+
+.countDownTimer h2:nth-child(2) {
+    color: #435efc;
+}
+
+.countDownTimer h2:last-child {
+    color: #f51515;
+}
+
+.countDownTimer span {
+    font-size: 0.5em;
+    color: #000000 !important;
+}
+
+.letsBegin {
+    font-size: 2em;
+    text-align: center;
+    color: #f51515;
+}
+
+
+
+
+
+
+/* Smartphones Medium*/
+@media(min-width: 320px) and (max-width: 425px) {
+    .mainBody .img {
+        width: 320px;
+    }
+
+    .contentHeading h1 {
+        font-size: 1.8em;
+        margin-bottom: 0.7em;
+        color: #286ef0;
+        text-shadow: 0px 6px 10px #1e74f5;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(0, 255, 21);
+        word-spacing: 0.09em;
+        letter-spacing: 0.07em;
+    }
+    .batch9 {
+        font-size: 0.7em;
+        text-align: center;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: rgb(0, 255, 21);
+    }
+
+    .batch9 .males {
+        font-size: 0.8em; 
+        -webkit-text-stroke-width: 0.4px;
+        -webkit-text-stroke-color: rgb(0, 255, 21);
+    }
+
+    .contentHeading h2 {
+        font-size: 0.8em;
+        text-align: center;
+        color: #004d40;
+        margin-bottom: 2em;
+        /* word-spacing: 0.1em; */
+        /* letter-spacing: 0.05em; */
+    }
+
+    .contentCoutdown:last-child h4 {
+        font-size: 0.8em;
+        color: #435efc;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #a9ccfa;
+        margin-bottom: 50px;
+    }
+
+    .contentCoutdown .countDownTimer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .contentCoutdown .countDownTimer h2 {
+        font-size: 1.7em;
+        display: grid;
+        /* grid-template-rows: 1fr 1fr; */
+        gap: 3px;
+        border: 1px dashed;
+        border-radius: 100px;
+        padding: 15px;
+    }
+}
